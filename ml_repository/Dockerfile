@@ -1,0 +1,14 @@
+FROM anapsix/alpine-java:8
+
+ENV SERVER_HOME=/app/
+ENV SERVER_JAR=ml_repository-assembly-1.0.jar
+
+ENV ORIGIN_JAR=target/scala-2.11/${SERVER_JAR}
+ENV SERVER_EXEC=${SERVER_HOME}/${SERVER_JAR}
+
+ADD config ${SERVER_HOME}/config
+ADD ${ORIGIN_JAR} ${SERVER_HOME}
+EXPOSE 8080
+
+WORKDIR ${SERVER_HOME}
+ENTRYPOINT java -jar ${SERVER_JAR}
