@@ -1,0 +1,11 @@
+{
+  "ID": "CONSUL_APPLICATION_ID",
+  "Name": "APPLICATION_NAME",
+  "Tags": [],
+  "Address": "CONSUL_EXPOSE_IP",
+  "Port": CONSUL_EXPOSE_PORT,
+  "Check": {
+    "HTTP": "http://CONSUL_HEALTHCHECK_IP:CONSUL_HEALTHCHECK_PORT/health",
+    "Interval": "5s"
+  }
+}

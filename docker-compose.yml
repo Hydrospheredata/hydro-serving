@@ -1,0 +1,45 @@
+version: "2"
+services:
+  consul:
+    image: consul:latest
+    ports:
+      - "8500:8500"
+    environment:
+      CONSUL_CLIENT_INTERFACE: "eth0"
+    restart: always
+
+  mist-serving-gateway:
+    image: mist-serving-gateway:latest
+    ports:
+      - "8080:80"
+    depends_on:
+      - consul
+    restart: always
+
+  spark-runtime:
+    image: spark-serve:latest
+    ports:
+      - "8081:8080"
+    depends_on:
+      - consul
+    environment:
+      MODEL_VERSION: "0.1"
+      MODEL_NAME: "dtree"
+      MODEL_TYPE: "spark"
+    restart: always
+    volumes:
+      - ~/Documents/Projects/Provectus/ml_runtimes/spark/models/:/models
+
+  scikit-runtime:
+    image: scikit-serve:latest
+    ports:
+      - "8082:8080"
+    depends_on:
+      - consul
+    environment:
+      MODEL_VERSION: "0.1"
+      MODEL_NAME: "svm"
+      MODEL_TYPE: "scikit"
+    restart: always
+    volumes:
+      - ~/Documents/Projects/Provectus/ml_runtimes/scikit/models/:/models
