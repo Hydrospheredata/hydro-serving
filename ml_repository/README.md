@@ -4,7 +4,7 @@ This project aims to satisfy the need of models structuring, and provides unifie
 
 ## How it works?
 
-1. User specifies locations of models (datasources) in configuration file [config/repository.conf]().
+1. User specifies locations of models (datasources) in configuration file [config/repository.conf](config/repository.conf).
 2. Repository identifies them, and creates a `SourceWatcher` actor for each datasource.
 SourceWatcher knows the environment of datasource and subscribes to it's updates, if possible.
 3. For each update, `SourceWatcher` collects data of changes via `RuntimeDispatcher`, that recognizes the Runtime of given models, and reads model's given metadata.
