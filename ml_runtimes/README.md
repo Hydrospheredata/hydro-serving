@@ -39,6 +39,14 @@ This dataframe can be represented in row-wise column list:
 
 That is unified input structure for all runtimes.
 
+## Model retrieval
+Every runtime knows about ML repository.
+Repository address is specified by `ML_REPO_ADDR` and `ML_REPO_PORT` environment variables.
+When request to serve a new model is received, runtime downloads model and it's metadata from repository.
+
+## HTTP parameters
+Runtime HTTP server parameters are set up with `SERVE_ADDR` and `SERVE_PORT` environment variables. Their defaults are `0.0.0.0` and `8080` respectively.
+
 ## Implemented runtimes
 * [sklearn](scikit/)
 * [spark-ml (local imlpementation)](localml-spark/)
