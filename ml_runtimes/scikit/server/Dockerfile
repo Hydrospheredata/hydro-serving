@@ -4,7 +4,7 @@ ENV MODEL_TYPE=type
 ENV MODEL_NAME=name
 ENV MODEL_VERSION=version
 
-ENV PYTHON_START=/app/main.py
+ENV PYTHON_START=/app/src/main.py
 
 ADD . /app/
 
