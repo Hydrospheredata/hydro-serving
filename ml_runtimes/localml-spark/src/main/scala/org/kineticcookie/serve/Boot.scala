@@ -48,10 +48,10 @@ object Boot extends App {
   implicit val timeout = Timeout(2.minutes)
 
   val addr = Properties.envOrElse("SERVE_ADDR", "0.0.0.0")
-  val port = Properties.envOrElse("SERVE_PORT", "8080").toInt
+  val port = Properties.envOrElse("SERVE_PORT", "9090").toInt
 
   val mlRepoAddr = Properties.envOrSome("ML_REPO_ADDR", Some("192.168.99.100")).get
-  val mlRepoPort = Properties.envOrSome("ML_REPO_PORT", Some("8081")).get.toInt
+  val mlRepoPort = Properties.envOrSome("ML_REPO_PORT", Some("8080")).get.toInt
 
   val repo = system.actorOf(ModelServer.props(mlRepoAddr, mlRepoPort))
   val corsSettings = CorsSettings.defaultSettings
