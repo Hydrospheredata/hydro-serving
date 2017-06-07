@@ -19,7 +19,7 @@ lazy val localMlServe = project.in(file("."))
     mainClass in assembly := Some("org.kineticcookie.serve.Boot")
   )
   .settings(
-    libraryDependencies += "io.hydrosphere" %% "mist-lib" % "0.1.3",
+    libraryDependencies += "io.hydrosphere" %% "mist-lib" % "0.1.4",
     libraryDependencies ++= sparkDependencies("2.1.0"),
     libraryDependencies ++= {
       val akkaV = "2.4.14"
