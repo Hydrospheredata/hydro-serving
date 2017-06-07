@@ -3,7 +3,7 @@ import urllib.request
 import json
 import numpy as np
 import pandas as pd
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, abort
 from sklearn.externals import joblib
 
 from server.src.scikit_metadata import *
@@ -47,6 +47,10 @@ def predict(model_name):
         model_cache[model_name] = ScikitMetadata(imported_model, input_columns, output_columns)
 
     input_data = request.json
+    input_data_keys = list(input_data[0].keys())
+    if set(output_columns).issubset(set(input_data_keys)):
+        print("ERROR Same columns in input and output")
+        abort(400, "Same columns in input and output.\nInput:{0}\nOutput:{1}".format(input_data_keys, output_columns))
     df = dict_to_df(input_data, input_columns)
     print(df)
     prediction = imported_model.predict(df[input_columns])
