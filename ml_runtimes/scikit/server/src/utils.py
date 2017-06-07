@@ -24,7 +24,7 @@ def df_to_json(df):
 
 
 def dict_to_df(listmap, columns):
-    result = pd.DataFrame(columns=columns)
+    result = pd.DataFrame()
     for item in listmap:
         result = result.append(item, ignore_index=True)
     return result

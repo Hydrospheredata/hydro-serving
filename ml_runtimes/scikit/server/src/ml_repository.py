@@ -7,7 +7,6 @@ from sklearn.externals import joblib
 class MLRepository:
     def __init__(self, addr, port):
         self.host = "http://{0}:{1}".format(addr, port)
-        print(self.host)
 
     def get_metadata(self, model_name):
         return json.load(urllib.request.urlopen("{0}/metadata/{1}".format(self.host, model_name)))

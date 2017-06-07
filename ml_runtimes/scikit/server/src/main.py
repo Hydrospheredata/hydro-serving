@@ -48,12 +48,12 @@ def predict(model_name):
 
     input_data = request.json
     df = dict_to_df(input_data, input_columns)
-
-    prediction = imported_model.predict(df)
+    print(df)
+    prediction = imported_model.predict(df[input_columns])
     res_df = pd.DataFrame(data=prediction, columns=output_columns)
 
     print(str(df) + '\nPrediction:\n' + str(res_df))
-    return jsonify(df_to_json(res_df))
+    return jsonify(df_to_json(df.join(res_df)))
 
 
 if __name__ == '__main__':
