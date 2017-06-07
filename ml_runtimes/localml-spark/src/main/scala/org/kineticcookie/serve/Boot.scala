@@ -42,13 +42,13 @@ object Boot extends App {
     }
   }
 
-  val addr = "0.0.0.0"
-  val port = 8081
-
   implicit val system = ActorSystem("ml_server")
   implicit val materializer = ActorMaterializer()
   implicit val ex = system.dispatcher
   implicit val timeout = Timeout(2.minutes)
+
+  val addr = Properties.envOrElse("SERVE_ADDR", "0.0.0.0")
+  val port = Properties.envOrElse("SERVE_PORT", "8080").toInt
 
   val mlRepoAddr = Properties.envOrSome("ML_REPO_ADDR", Some("192.168.99.100")).get
   val mlRepoPort = Properties.envOrSome("ML_REPO_PORT", Some("8081")).get.toInt

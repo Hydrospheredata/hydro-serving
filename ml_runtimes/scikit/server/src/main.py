@@ -10,7 +10,9 @@ from server.src.scikit_metadata import *
 from server.src.utils import *
 from server.src.ml_repository import *
 
-PORT_NUMBER = 8080
+ADDR = os.getenv("SERVE_ADDR", "0.0.0.0")
+PORT = int(os.getenv("SERVE_PORT", "8080"))
+
 MODEL_VERSION = os.getenv('MODEL_VERSION', "version")
 MODEL_NAME = os.getenv('MODEL_NAME', "name")
 MODEL_TYPE = os.getenv('MODEL_TYPE', "type")
@@ -61,4 +63,4 @@ def predict(model_name):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)
+    app.run(host=ADDR, port=PORT)
