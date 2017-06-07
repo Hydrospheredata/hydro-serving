@@ -3,7 +3,8 @@ package org.kineticcookie.serve
 import java.io.FileOutputStream
 import java.net.URL
 
-import akka.actor.ActorSystem
+import akka.pattern.ask
+import akka.actor.{ActorSystem, Props}
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport._
@@ -16,7 +17,7 @@ import ch.megard.akka.http.cors.CorsSettings
 
 import scala.concurrent.duration._
 import scala.reflect.runtime.universe._
-import scala.util.Properties
+import scala.util.{Failure, Properties}
 import java.nio.file._
 
 import io.hydrosphere.mist.api.ml._
@@ -31,7 +32,6 @@ import DefaultJsonProtocol._
   * Created by Bulat on 19.05.2017.
   */
 object Boot extends App {
-  def modelDir(modelName: String): Path = Paths.get(s"models/$modelName")
   def convertCollection[T: TypeTag](list: List[T]) = {
     list match {
       case value: List[Double @unchecked] =>
@@ -42,91 +42,64 @@ object Boot extends App {
     }
   }
 
+  val addr = "0.0.0.0"
+  val port = 8081
+
   implicit val system = ActorSystem("ml_server")
   implicit val materializer = ActorMaterializer()
   implicit val ex = system.dispatcher
-  implicit val timeout = Timeout(10.seconds)
+  implicit val timeout = Timeout(2.minutes)
 
+  val mlRepoAddr = Properties.envOrSome("ML_REPO_ADDR", Some("192.168.99.100")).get
+  val mlRepoPort = Properties.envOrSome("ML_REPO_PORT", Some("8081")).get.toInt
+
+  val repo = system.actorOf(ModelServer.props(mlRepoAddr, mlRepoPort))
   val corsSettings = CorsSettings.defaultSettings
 
   val routes = cors(corsSettings) {
     get {
-     path("health") {
-       complete {
-         "Hi"
-       }
-     }~
-      path("prepare" / Segment) { modelName =>
-        val mlRepoAddr = Properties.envOrSome("ML_REPO_ADDR", Some("192.168.99.100")).get
-        val mlRepoPort = Properties.envOrSome("ML_REPO_PORT", Some("8081")).get.toInt
-
-        val fMetadataRequest = Http().singleRequest(HttpRequest(uri = s"http://$mlRepoAddr:$mlRepoPort/metadata/$modelName")).flatMap(x => Unmarshal(x).to[SparkMetadata])
-        val fFilesRequest = Http().singleRequest(HttpRequest(uri = s"http://$mlRepoAddr:$mlRepoPort/files/$modelName")).flatMap(x => Unmarshal(x).to[List[String]])
-
-        val modelPath = modelDir(modelName)
-        onSuccess(fFilesRequest) { files =>
-            Files.deleteIfExists(modelPath)
-            Files.createDirectory(modelPath)
-            files.foreach { f =>
-              val request = new URL(s"http://$mlRepoAddr:$mlRepoPort/download/$modelName/$f")
-              val inStream = request.openStream()
-              val outStream = new FileOutputStream(s"${modelDir(modelName)}/$f")
-
-              val bytes = new Array[Byte](2048)
-              var length: Int = 0
-              while( length != -1) {
-                length = inStream.read(bytes)
-                outStream.write(bytes, 0, length)
-              }
-
-              inStream.close()
-              outStream.close()
-            }
-            complete {
-              "kek"
-            }
+      path("health") {
+        complete {
+          "Hi"
         }
       }
-    }~
-    post {
-      path(Segment) { modelName =>
-        import MapAnyJson._
-
+    } ~
+      post {
+        path(Segment) { modelName =>
+          import MapAnyJson._
           entity(as[List[Map[String, Any]]]) { mapList =>
-            ???
-//            complete {
-//              println(s"Incoming request. Model: $modelName. Params: $mapList")
-//              try {
-//                val metadata
-//                val pipelineModel = PipelineLoader.load(modelPath(modelName))
-//                println("Pipeline loaded")
-//                val inputCols = pipelineModel.getInputColumns
-//                val columns = inputCols.map { colName =>
-//                  val colData = mapList.map { col =>
-//                    val data = col(colName)
-//                    data match {
-//                      case l: List[Any] => convertCollection(l)
-//                      case x => x
-//                    }
-//                  }
-//                  LocalDataColumn(colName, colData)
-//                }
-//                val inputLDF = LocalData(columns.toList)
-//                println("Local DataFrame created")
-//                val result = pipelineModel.transform(inputLDF)
-//                println(s"Result: ${result.toMapList}")
-//                result.select(pipelineModel.getOutputColumns :_*).toMapList.asInstanceOf[List[Any]]
-//              } catch {
-//                case e: Exception =>
-//                  println(e.toString)
-//                  e.getStackTrace.foreach(println)
-//                  e.toString
-//              }
-//            }
+            println(s"Incoming request. Model: $modelName. Params: $mapList")
+            val f = repo ? ModelServer.Message.GetModel(modelName)
+            onSuccess(f.mapTo[ModelEntry]) { model =>
+              val pipelineModel = model.pipeline
+              val inputs = model.metadata.inputs
+              val inputKeys = mapList.head.keys.toList
+              if (!inputKeys.containsSlice(inputs)) {
+                complete {
+                  Failure(new IllegalArgumentException(s"Invalid input data. Received $inputKeys. Required $inputs"))
+                }
+              } else {
+                val columns = inputKeys.map { colName =>
+                  val colData = mapList.map { row =>
+                    val data = row(colName)
+                    data match {
+                      case l: List[Any] => convertCollection(l)
+                      case x => x
+                    }
+                  }
+                  LocalDataColumn(colName, colData)
+                }
+                val inputLDF = LocalData(columns)
+                val result = pipelineModel.transform(inputLDF)
+                complete {
+                  result.toMapList.asInstanceOf[List[Any]]
+                }
+              }
+            }
           }
+        }
       }
-    }
   }
-
-  Http().bindAndHandle(routes, "0.0.0.0", 8080)
+  println(s"Running @ $addr:$port")
+  Http().bindAndHandle(routes, addr, port)
 }
