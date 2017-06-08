@@ -6,12 +6,12 @@ import pandas as pd
 from flask import Flask, jsonify, request, abort
 from sklearn.externals import joblib
 
-from server.src.scikit_metadata import *
-from server.src.utils import *
-from server.src.ml_repository import *
+from scikit_metadata import *
+from utils import *
+from ml_repository import *
 
 ADDR = os.getenv("SERVE_ADDR", "0.0.0.0")
-PORT = int(os.getenv("SERVE_PORT", "8080"))
+PORT = int(os.getenv("SERVE_PORT", "9090"))
 
 MODEL_VERSION = os.getenv('MODEL_VERSION', "version")
 MODEL_NAME = os.getenv('MODEL_NAME', "name")

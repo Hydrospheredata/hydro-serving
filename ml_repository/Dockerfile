@@ -13,7 +13,7 @@ ENV SERVICE_TYPE=repository
 ENV SERVICE_NAME=repository
 ENV SERVICE_VERSION=0.0.1
 
-ENV MANAGER_HOST=localhost
+ENV MANAGER_HOST=manager
 ENV MANAGER_PORT=8080
 
 ADD start-repo.sh /hydrosphere/

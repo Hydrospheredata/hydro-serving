@@ -9,10 +9,12 @@ class MLRepository:
         self.host = "http://{0}:{1}".format(addr, port)
 
     def get_metadata(self, model_name):
-        return json.load(urllib.request.urlopen("{0}/metadata/{1}".format(self.host, model_name)))
+        jss = urllib.request.urlopen("{0}/metadata/{1}".format(self.host, model_name)).read().decode('utf8')
+        return json.loads(jss)
 
     def get_files(self, model_name):
-        return json.load(urllib.request.urlopen("{0}/files/{1}".format(self.host, model_name)))
+        jss = urllib.request.urlopen("{0}/files/{1}".format(self.host, model_name)).read().decode('utf8')
+        return json.loads(jss)
 
     def download_file(self, model_name, file_name):
         url = "{0}/download/{1}/{2}".format(self.host, model_name, file_name)
