@@ -11,13 +11,15 @@ class LocalRandomForestClassificationModel(override val sparkTransformer: Random
         val cls = classOf[RandomForestClassificationModel]
         val rawPredictionCol = LocalDataColumn(sparkTransformer.getRawPredictionCol, column.data.map(f => Vectors.dense(f.asInstanceOf[Array[Double]])).map { vector =>
           val predictRaw = cls.getDeclaredMethod("predictRaw", classOf[Vector])
-          predictRaw.invoke(sparkTransformer, vector)
+          val res = predictRaw.invoke(sparkTransformer, vector).asInstanceOf[Vector]
+          res.toArray
         })
-        val probabilityCol = LocalDataColumn(sparkTransformer.getProbabilityCol, rawPredictionCol.data.map(_.asInstanceOf[DenseVector]).map { vector =>
+        val probabilityCol = LocalDataColumn(sparkTransformer.getProbabilityCol, rawPredictionCol.data.map(Vectors.dense).map { vector =>
           val raw2probabilityInPlace = cls.getDeclaredMethod("raw2probabilityInPlace", classOf[Vector])
-          raw2probabilityInPlace.invoke(sparkTransformer, vector.copy)
+          val res = raw2probabilityInPlace.invoke(sparkTransformer, vector.copy).asInstanceOf[Vector]
+          res.toArray
         })
-        val predictionCol = LocalDataColumn(sparkTransformer.getPredictionCol, rawPredictionCol.data.map(_.asInstanceOf[DenseVector]).map { vector =>
+        val predictionCol = LocalDataColumn(sparkTransformer.getPredictionCol, rawPredictionCol.data.map(Vectors.dense).map { vector =>
           val raw2prediction = cls.getMethod("raw2prediction", classOf[Vector])
           raw2prediction.invoke(sparkTransformer, vector.copy)
         })

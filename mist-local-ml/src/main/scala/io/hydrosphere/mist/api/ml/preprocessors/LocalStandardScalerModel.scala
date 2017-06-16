@@ -24,6 +24,7 @@ class LocalStandardScalerModel(override val sparkTransformer: StandardScalerMode
 
         val newData = column.data.map(r => {
           val vec: OldVector = r match {
+            case d: Array[Double @unchecked] => OldVectors.dense(d)
             case d: List[Any @unchecked] => OldVectors.dense(d.map(_.toString.toDouble).toArray)
             case d: SparseVector => OldVectors.sparse(d.size, d.indices, d.values)
             case d: DenseVector => OldVectors.dense(d.toArray)
@@ -31,7 +32,8 @@ class LocalStandardScalerModel(override val sparkTransformer: StandardScalerMode
             case d: OldSparseVector => d.toDense
             case d => throw new IllegalArgumentException(s"Unknown data type for LocalStandardScaler: $d")
           }
-          scaler.transform(vec)
+          val result = scaler.transform(vec)
+          result.toArray
         })
         localData.withColumn(LocalDataColumn(sparkTransformer.getOutputCol, newData))
       case None => localData

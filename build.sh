@@ -30,6 +30,11 @@ docker build -t mist-envoy-alpine-python-machinelearning -f Dockerfile-alpine-py
 docker build --no-cache -t mist-runtime-scikit .
 cd ../
 
+echo "Custom Scikit..."
+cd custom_scikit
+docker build --no-cache -t mist-runtime-custom-scikit .
+cd ../
+
 cd ../
 
 echo "Build complete. Images are ready to run."
